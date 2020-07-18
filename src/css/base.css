@@ -46,14 +46,18 @@ button::-moz-focus-inner {
 }
 
 button {
-	background-color: #f5f5f5;
-	border: 1px solid #ccc;
+	background-color: #FFFFFF;
+	border: 1px solid #B6B6B6;
 	display: inline-block;
 	cursor: pointer;
 	min-width: 70px;
 	font-size: 14px;
 	padding: 2px;
 	height: 23px;
+}
+
+button:hover:enabled {
+	background-color: #E6E6E6;
 }
 
 button:disabled {
